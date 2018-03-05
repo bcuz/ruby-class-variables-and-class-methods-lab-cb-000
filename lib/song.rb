@@ -40,6 +40,6 @@ class Song
         ans[i] += 1
       end
     end
-    
+    ans
   end
 end
