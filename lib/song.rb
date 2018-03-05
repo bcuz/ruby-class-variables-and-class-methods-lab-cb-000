@@ -31,10 +31,7 @@ class Song
   def self.genre_count
     ans = {}
     @@genres.each do |i|
-      # need it to start at 0 and increment
 
-      # if ans hash doesnt have the key,
-      # make it a key and set it to 0
       if !ans.has_key? i
         ans[i] = 1
       else
