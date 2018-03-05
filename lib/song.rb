@@ -43,11 +43,11 @@ class Song
   def self.artist_count
     ans = {}
     @@artists.each do |i|
-      # if !ans.has_key? i
-      #   ans[i] = 1
-      # else
-      #   ans[i] += 1
-      # end
+      if !ans.has_key? i
+        ans[i] = 1
+      else
+        ans[i] += 1
+      end
       # !ans.has_key? i ? ans[i] = 1 : ans[i] += 1
 
       # else
