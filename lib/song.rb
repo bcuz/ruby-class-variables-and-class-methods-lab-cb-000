@@ -49,9 +49,9 @@ class Song
       #   ans[i] += 1
       # end
       !ans.has_key? i ? ans[i] = 1 : ans[i] += 1
-        
+
       # else
-      #   
+      #
       # end
 
 
