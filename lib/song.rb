@@ -34,7 +34,7 @@ class Song
       # need it to start at 0 and increment
 
 
-      if !ans.has_key? ans[i]
+      if !ans.has_key? i
         ans[i] = 0
       else
         ans[i] += 1
