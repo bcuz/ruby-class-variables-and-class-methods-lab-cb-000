@@ -33,7 +33,7 @@ class Song
     @@genres.each do |i|
       # need it to start at 0 and increment
 
-
+      # if ans hash doesnt have the key
       if !ans.has_key? i
         ans[i] = 0
       else
