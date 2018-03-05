@@ -32,7 +32,7 @@ class Song
     ans = {}
     @@genres.each do |i|
       # need it to start at 0 and increment
-      
+
 
       if !ans.has_key? ans[i]
         ans[i] = 0
