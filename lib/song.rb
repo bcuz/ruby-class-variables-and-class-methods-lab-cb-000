@@ -40,9 +40,9 @@ class Song
     ans
   end
 
-  def self.genre_count
+  def self.artist_count
     ans = {}
-    @@genres.each do |i|
+    @@artists.each do |i|
       if !ans.has_key? i
         ans[i] = 1
       else
