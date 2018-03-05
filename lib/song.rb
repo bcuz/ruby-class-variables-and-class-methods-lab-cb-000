@@ -31,7 +31,18 @@ class Song
   def self.genre_count
     ans = {}
     @@genres.each do |i|
+      if !ans.has_key? i
+        ans[i] = 1
+      else
+        ans[i] += 1
+      end
+    end
+    ans
+  end
 
+  def self.genre_count
+    ans = {}
+    @@genres.each do |i|
       if !ans.has_key? i
         ans[i] = 1
       else
